@@ -1,0 +1,18 @@
+@media screen and (max-width: 750px){
+
+.conteudo-principal{
+    flex-wrap: wrap;
+
+}
+.conteudo-segundario-p{
+    padding: 3vh;
+    text-align: center;
+}
+.conteudo-principal-escrito-titulo{
+    text-align: center;
+}
+.conteudo-principal-escrito-botao{
+    justify-content: center;
+    margin: 0 auto;
+}
+}
