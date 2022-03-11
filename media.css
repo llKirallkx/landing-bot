@@ -1,9 +1,37 @@
 @media screen and (max-width: 750px){
 
+body{
+    background: linear-gradient(45deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.cabecalho{
+    justify-content: none;
+
+}
+.cabecalho-menu{
+    gap: 1.3vh;
+}
+.conteudo-principal-escrito{
+    gap: 15px;
+    margin-left: 2vh;
+}
+
+.conteudo-principal-img{
+    max-width: none;
+    min-width: 12vh;
+}
+
+.cabecalho-img{
+    display: none;
+}
 .conteudo-principal{
     flex-wrap: wrap;
 
 }
+
+.conteudo-principal-escrito-subtitulo{
+    text-align: center;
+}
+
 .conteudo-segundario-p{
     padding: 3vh;
     text-align: center;
